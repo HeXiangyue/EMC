@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!-- <suite name="JavaPro" parallel="none" configfailurepolicy="continue"> -->
+<suite name="EmcTest" parallel="none">
+	<test name="Testone">
+
+
+
+		<classes>
+			<class name="com.terry.interview.emc.testone.TestOneTest">
+			</class>
+			<!--<class name="com.terry.interview.emc.test3option2.Test3Option2Test">-->
+			<!--</class>-->
+		</classes>
+
+		
+
+
+	</test>
+</suite>

@@ -1,0 +1,10 @@
+---
+defaultReadWriteMaxCount: 3
+
+files:
+  - name: file1
+  - name: file2
+  - name: file3
+  - name: file4
+    readWriteCount: 2
+  - name: file5
