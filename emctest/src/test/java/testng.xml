@@ -9,8 +9,8 @@
 		<classes>
 			<class name="com.terry.interview.emc.testone.TestOneTest">
 			</class>
-			<!--<class name="com.terry.interview.emc.test3option2.Test3Option2Test">-->
-			<!--</class>-->
+			<class name="com.terry.interview.emc.test3option2.Test3Option2Test">
+			</class>
 		</classes>
 
 		

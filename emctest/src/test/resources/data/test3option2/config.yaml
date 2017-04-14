@@ -1,5 +1,5 @@
 ---
-defaultReadWriteMaxCount: 3
+defaultReadWriteMaxCount: 2
 
 files:
   - name: file1
