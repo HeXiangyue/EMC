@@ -1,0 +1,68 @@
+[Scenario 1]: Create one LUN
+- Test Steps:
+  1. Create one LUN on the storage array with command: xxx
+  2. Check the information (Eg: size) of LUN
+  3. Write files on this LUN
+  4. Read files from this LUN
+- Expected Result:
+  1. The LUN is succeffully created in the storage array
+  2. All the information of the LUN are the same with what we configured.
+  3. Files can be written successfully on this LUN
+  4. Files can be read successfully from this LUN
+
+
+[Scenario 2]: Create multiple LUN on the storage array with command: xxx
+- Test Steps:
+  1. Create multiple LUN on the storage array with command: xxx
+  2. Check the informations for all the LUN
+  3. Write files on these LUN
+  4. Read files from these LUN
+- Expected Result:
+  1. All the LUN are created successfully
+  2. All the information of the LUN are the same with what we configured.
+  3. Files can be written successfully on these LUN
+  4. Files can be read successfully from these LUN
+
+[Scenario 3]: Resize a LUN
+- Test Steps:
+  1. Create a LUN on the storage array with command: xxx
+  2. Expand the size of the LUN with command: xxx
+  3. Write and Read files on this LUN
+- Expected Result:
+  1. The LUN is successfully created
+  2. The size of the LUN get changed to what we configured
+  3. Write and read works fine on this LUN
+
+[Scenario 4]: Export a LUN to a host
+
+[Scenario 5]: Un-export a LUN
+
+[Scenario 6]: Remove an un-exported LUN
+
+[Scenario 7]: Retrieve the information (size, export) of a LUN
+- Test Steps:
+  1. Create a LUN on the storage array with command: xxx
+  2. Retrieve the information of the LUN with command: xxx
+- Expected Result:
+  1. The LUN is created successfully
+  2. The information of the LUN get returned and all of them are correct.
+
+[Scenario 8]: Concurrent requests is supported
+- Test Pre-requisite (Choose one of them):
+  1. Write a multiple thread program to concurrently write and read files against the storage array
+  2. Use some existing tools
+- Test Steps:
+  1. Start the program to concurrently write and read files against the storage array
+  2. Check the status of all the write and read events
+- Expected Result:
+  1. The program/tools started successfully and write and read events are going on
+  2. There has no IOException or Other exception at all, all the write and read event can work properly
+
+[Scenario 9]: Performance is not impacted no matter how many LUN’s are created and exported.
+- Test Pre-requisite (Choose one of them):
+  1. Write performance program write and read files against the storage array
+  2. Use some existing tools
+- Test Steps:
+  1. Start the performance program/tool against the storage array without any LUN created or exported
+  2. Start the performance program/tool against the storage array with some LUN created or exported (we would have the accurate number )
+  3. Start the performance program/tool against the storage array with lots of LUN created or exported (we would have the accurate number )
