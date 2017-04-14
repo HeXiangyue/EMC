@@ -1,0 +1,86 @@
+2017-04-14 22:50:00,772 INFO  Test3Option2Test - Start the FileReadWriteOperationTest...
+2017-04-14 22:50:00,865 DEBUG FileAccess - Lock write access for file <file2>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Writing content <c92cf0b6-ddf8-40a8-8da0-9f0f7ba504ca> to file <D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file2>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Lock write access for file <file5>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Lock write access for file <file3>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Writing content <e65bd04e-bee3-417b-8da3-5a65f3666016> to file <D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file3>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Lock write access for file <file1>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Writing content <4451436e-d222-42e6-8db0-89542ec83afe> to file <D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file1>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Writing content <19d6e66a-49f4-483a-babc-ef7d7897d398> to file <D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file5>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Lock write access for file <file4>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Writing content <4eace545-dccb-4d3f-9327-bec92759ae7a> to file <D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file4>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Lock read access for file <file4>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Lock read access for file <file3>
+2017-04-14 22:50:00,865 INFO  Test3Option2Test - Following is the verification result <1 write, 1 read> for file:
+File Name: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file3
+Expected Content: e65bd04e-bee3-417b-8da3-5a65f3666016
+Actual Content: e65bd04e-bee3-417b-8da3-5a65f3666016
+Test Result: Pass
+2017-04-14 22:50:00,865 INFO  Test3Option2Test - Following is the verification result <1 write, 1 read> for file:
+File Name: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file4
+Expected Content: 4eace545-dccb-4d3f-9327-bec92759ae7a
+Actual Content: 4eace545-dccb-4d3f-9327-bec92759ae7a
+Test Result: Pass
+2017-04-14 22:50:00,865 DEBUG Test3Option2Test - CurrentWriteCount <1> is smaller than MaxWriteCount <2>, we put the file to the write queue again: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file3
+2017-04-14 22:50:00,865 DEBUG Test3Option2Test - CurrentWriteCount <1> is smaller than MaxWriteCount <2>, we put the file to the write queue again: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file4
+2017-04-14 22:50:00,865 DEBUG FileAccess - Lock write access for file <file3>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Lock write access for file <file4>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Writing content <9e4f1a4b-d5ba-4a9a-9446-c5ff91e7ad9f> to file <D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file3>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Writing content <27123523-2deb-4672-9981-475dc7105207> to file <D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file4>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Lock read access for file <file2>
+2017-04-14 22:50:00,865 INFO  Test3Option2Test - Following is the verification result <1 write, 1 read> for file:
+File Name: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file2
+Expected Content: c92cf0b6-ddf8-40a8-8da0-9f0f7ba504ca
+Actual Content: c92cf0b6-ddf8-40a8-8da0-9f0f7ba504ca
+Test Result: Pass
+2017-04-14 22:50:00,865 DEBUG Test3Option2Test - CurrentWriteCount <1> is smaller than MaxWriteCount <2>, we put the file to the write queue again: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file2
+2017-04-14 22:50:00,865 DEBUG FileAccess - Lock write access for file <file2>
+2017-04-14 22:50:00,865 DEBUG FileAccess - Writing content <2682594c-542c-403f-a521-dcb6d0132f30> to file <D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file2>
+2017-04-14 22:50:00,881 DEBUG FileAccess - Lock read access for file <file4>
+2017-04-14 22:50:00,881 DEBUG FileAccess - Lock read access for file <file3>
+2017-04-14 22:50:00,881 INFO  Test3Option2Test - Following is the verification result <2 write, 2 read> for file:
+File Name: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file4
+Expected Content: 27123523-2deb-4672-9981-475dc7105207
+Actual Content: 27123523-2deb-4672-9981-475dc7105207
+Test Result: Pass
+2017-04-14 22:50:00,881 INFO  Test3Option2Test - Following is the verification result <2 write, 2 read> for file:
+File Name: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file3
+Expected Content: 9e4f1a4b-d5ba-4a9a-9446-c5ff91e7ad9f
+Actual Content: 9e4f1a4b-d5ba-4a9a-9446-c5ff91e7ad9f
+Test Result: Pass
+2017-04-14 22:50:00,881 DEBUG FileAccess - Lock read access for file <file2>
+2017-04-14 22:50:00,881 DEBUG FileAccess - Lock read access for file <file5>
+2017-04-14 22:50:00,881 INFO  Test3Option2Test - Following is the verification result <2 write, 2 read> for file:
+File Name: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file2
+Expected Content: 2682594c-542c-403f-a521-dcb6d0132f30
+Actual Content: 2682594c-542c-403f-a521-dcb6d0132f30
+Test Result: Pass
+2017-04-14 22:50:00,881 INFO  Test3Option2Test - Following is the verification result <1 write, 1 read> for file:
+File Name: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file5
+Expected Content: 19d6e66a-49f4-483a-babc-ef7d7897d398
+Actual Content: 19d6e66a-49f4-483a-babc-ef7d7897d398
+Test Result: Pass
+2017-04-14 22:50:00,881 DEBUG Test3Option2Test - CurrentWriteCount <1> is smaller than MaxWriteCount <2>, we put the file to the write queue again: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file5
+2017-04-14 22:50:00,881 DEBUG FileAccess - Lock write access for file <file5>
+2017-04-14 22:50:00,881 DEBUG FileAccess - Writing content <5bd076b5-c9ac-433f-a7ff-6d8e94928791> to file <D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file5>
+2017-04-14 22:50:00,881 DEBUG FileAccess - Lock read access for file <file5>
+2017-04-14 22:50:00,881 INFO  Test3Option2Test - Following is the verification result <2 write, 2 read> for file:
+File Name: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file5
+Expected Content: 5bd076b5-c9ac-433f-a7ff-6d8e94928791
+Actual Content: 5bd076b5-c9ac-433f-a7ff-6d8e94928791
+Test Result: Pass
+2017-04-14 22:50:00,943 DEBUG FileAccess - Lock read access for file <file1>
+2017-04-14 22:50:00,943 INFO  Test3Option2Test - Following is the verification result <1 write, 1 read> for file:
+File Name: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file1
+Expected Content: 4451436e-d222-42e6-8db0-89542ec83afe
+Actual Content: 4451436e-d222-42e6-8db0-89542ec83afe
+Test Result: Pass
+2017-04-14 22:50:00,943 DEBUG Test3Option2Test - CurrentWriteCount <1> is smaller than MaxWriteCount <2>, we put the file to the write queue again: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file1
+2017-04-14 22:50:00,943 DEBUG FileAccess - Lock write access for file <file1>
+2017-04-14 22:50:00,943 DEBUG FileAccess - Writing content <84aa21d7-9f4e-402b-a99c-08a7ca6fff96> to file <D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file1>
+2017-04-14 22:50:00,943 DEBUG FileAccess - Lock read access for file <file1>
+2017-04-14 22:50:00,943 INFO  Test3Option2Test - Following is the verification result <2 write, 2 read> for file:
+File Name: D:\Xianghe\Interview\EMC\emctest\target\test-classes\data\test3option2\file1
+Expected Content: 84aa21d7-9f4e-402b-a99c-08a7ca6fff96
+Actual Content: 84aa21d7-9f4e-402b-a99c-08a7ca6fff96
+Test Result: Pass
